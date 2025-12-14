@@ -1,0 +1,8 @@
+query CharactersPage4 {
+  characters(page: 4) {
+    results {
+      id
+      name
+    }
+  }
+}
